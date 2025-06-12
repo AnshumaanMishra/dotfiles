@@ -2,7 +2,7 @@
     "version": "2.1.1",
     "autoload": {
         "CX 2.4G Receiver": "new preset",
-        "Toad One Plus": "new preset",
-        "HS6209 2.4G Wireless Receiver": "new preset"
+        "HS6209 2.4G Wireless Receiver": "new preset",
+        "Toad One Plus": "new preset"
     }
 }

@@ -226,5 +226,17 @@
         "target_uinput": "keyboard",
         "output_symbol": "disable",
         "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 276,
+                "origin_hash": "520e94eef430ff4302ee4ff5f5fcc5fc"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "disable",
+        "mapping_type": "key_macro"
     }
 ]
