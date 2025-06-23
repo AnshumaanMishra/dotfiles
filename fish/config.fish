@@ -3,4 +3,3 @@ if status is-interactive
 end
 alias python=python3
 alias l="ls -la"
-alias nvim="~/Downloads/nvim-linux-x86_64/bin/nvim"
