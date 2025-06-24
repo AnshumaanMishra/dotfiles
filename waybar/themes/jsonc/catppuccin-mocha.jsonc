@@ -250,23 +250,23 @@
 
     "tooltip-format-activated": "Presentation Mode",
     "tooltip-format-deactivated": "Idle Mode",
-    "start-activated": false
+    "start-activated": true
   },
 
   // ───────────────────────────────────────────────────────────────┤ time ├───
 
   "clock#time": {
-    "format": "{:%H:%M}",
+    "format": "{:%I:%M %p}",
     "tooltip": false,
     // "tooltip-format": "Standard Time: {:%I:%M %p}",
-    "min-length": 6,
-    "max-length": 6
+    "min-length": 10,
+    "max-length": 10
   },
 
   // ───────────────────────────────────────────────────────────────┤ date ├───
 
   "clock#date": {
-    "format": "󰸗 {:%m-%d}",
+    "format": "󰸗 {:%d-%m}",
     "tooltip-format": "<tt>{calendar}</tt>",
 
     "calendar": {

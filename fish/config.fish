@@ -3,6 +3,7 @@ if status is-interactive
 end
 alias python=python3
 alias l="ls -la"
+alias zen=zen-browser
 alias cd="z"
 alias cdi="zi"
 # zxoide ZSH
