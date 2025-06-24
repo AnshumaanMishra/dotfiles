@@ -3,3 +3,8 @@ if status is-interactive
 end
 alias python=python3
 alias l="ls -la"
+alias cd="z"
+alias cdi="zi"
+# zxoide ZSH
+set PATH "$HOME/.local/bin:$PATH"
+eval "$(zoxide init fish)"
