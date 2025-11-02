@@ -1,0 +1,11 @@
+# Ignore everything
+*
+
+# Allow these folders
+!/nvim/
+!/kitty/
+!/fish/
+
+# Allow the gitignore file itself
+!.gitignore
+

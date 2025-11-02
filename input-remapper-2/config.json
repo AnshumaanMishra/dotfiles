@@ -3,6 +3,9 @@
     "autoload": {
         "CX 2.4G Receiver": "new preset",
         "HS6209 2.4G Wireless Receiver": "new preset",
-        "Toad One Plus": "new preset"
+        "Toad One Plus": "new preset",
+        "ITE Tech. Inc. ITE Device(8176) Keyboard": "new preset",
+        "AT Translated Set 2 keyboard": "new preset",
+        "  2.4G Wireless Device": "new preset"
     }
 }

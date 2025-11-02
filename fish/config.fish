@@ -6,11 +6,14 @@ alias l="ls -la"
 alias zen=/usr/local/bin/launch-zen
 alias cd="z"
 alias cdi="zi"
-alias zse="sudo zypper se"
-alias zsep="sudo zypper se --provides"
-alias zin="sudo zypper in"
-alias zrm="sudo zypper rm"
-alias zup="sudo zypper dup && sudo zypper update"
-alias zrf="sudo zypper refresh"
-
+alias xc="xclip -selection clipboard"
+alias wcl="wl-clip -selection clipboard"
+alias wcon="warp-cli connect"
+alias wstat="warp-cli status"
+alias wdcon="warp-cli disconnect"
 eval "$(zoxide init fish)"
+set -x NIX_SHELL_FISH 1
+set -x LD_LIBRARY_PATH /run/opengl-driver/lib /run/current-system/sw/lib $LD_LIBRARY_PATH
+set -x SHELL /run/current-system/sw/bin/fish
+set -Ux fish_user_paths $HOME/.cargo/bin $fish_user_paths
+
